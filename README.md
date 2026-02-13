@@ -9,8 +9,9 @@ Dataset
 - Target: Survival probabilities at multiple time horizons: prob_12h, prob_24h, prob_48h, prob_72h
 - Notes: Right-censored survival problem; some fires may not reach reach evacuation zones within 72h
 
-👥 Team Members
-Name	GitHub Handle	Contribution
-Harshika Vijayabharath	@HarshikaV	
-Yamini Karthik
-Taanyaa Haridass Prasad		
+## 👥 Team Members
+| Name                       | GitHub Handle   | Contribution                                                                         |
+| -------------------------- | --------------- | ------------------------------------------------------------------------------------ |
+| **Harshika Vijayabharath**        | @HarshikaV | |
+| **Yamini Karthik**             | | |
+| **Taanyaa Haridass Prasad**             | | |
