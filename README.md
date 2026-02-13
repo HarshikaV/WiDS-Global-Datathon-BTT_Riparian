@@ -1,12 +1,12 @@
 # WiDS-Global-Datathon-BTT_Riparian
-This project focuses on predicting whether a wildfire will threaten an evacuation zone within 12, 24, 48, and 72 hours, using only data from the first 5 hours after ignition by building survival models. 
+This project focuses on building survival models for predicting whether a wildfire will threaten an evacuation zone within 12, 24, 48, and 72 hours, using only data from the first 5 hours after ignition. 
 
-Our goal is to give emergency responders urgency rankings and reliable probability estimates to help them make informed decisions regarding resource deployment, warnings, and evacuations.
+Our goal is to give emergency responders urgency rankings and reliable probability estimates to guide decisions regarding resource deployment, warnings, and evacuations.
 
 Dataset
 - Provided by WatchDuty and WiDS 
 - Contents: Wildfire perimeter and early incident features
-- Targets: Survival probabilities at multiple time horizons:
+- Targets: Survival probabilities at multiple time horizons
   - prob_12h: probability of threat within 12 hours
   - prob_24h: probability of threat within 24 hours
   - prob_48h: probability of threat within 48 hours
