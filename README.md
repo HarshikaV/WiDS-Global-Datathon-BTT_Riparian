@@ -20,7 +20,7 @@ Dataset
 | -------------------------- | --------------- | ------------------------------------------------------------------------------------ |
 | **Harshika Vijayabharath**        | @HarshikaV | |
 | **Yamini Karthik**             | | |
-| **Taanyaa Haridass Prasad**             | | |
+| **Taanyaa Haridass Prasad**             | @taanyaaharidassprasad06 | |
 
 Key Tasks
 - Data cleaning, preprocessing, and feature engineering
