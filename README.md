@@ -19,7 +19,7 @@ Dataset
 | Name                       | GitHub Handle   | Contribution                                                                         |
 | -------------------------- | --------------- | ------------------------------------------------------------------------------------ |
 | **Harshika Vijayabharath**        | @HarshikaV | |
-| **Yamini Karthik**             | | |
+| **Yamini Karthik**             | @Yamini1025 | |
 | **Taanyaa Haridass Prasad**             | @taanyaaharidassprasad06 | |
 
 Key Tasks
