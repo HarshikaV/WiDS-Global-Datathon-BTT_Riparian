@@ -18,7 +18,7 @@ Dataset
 ## 👥 Team Members
 | Name                       | GitHub Handle   | Contribution                                                                         |
 | -------------------------- | --------------- | ------------------------------------------------------------------------------------ |
-| **Harshika Vijayabharath**        | @HarshikaV | |
+| **Harshika Vijayabharath**        | @HarshikaV | Developed and evaluated predictive models for 48h and 72h wildfire threat horizons, including hyperparameter tuning, monotocity enforcement, and performance evaluation using ROC-AUC, log-loss, calibration curves, and Brier scores; currently contributing to survival model comparisons (Classification vs Cox vs RSF)|
 | **Yamini Karthik**             | @Yamini1025 | |
 | **Taanyaa Haridass Prasad**             | @taanyaaharidassprasad06 | |
 
