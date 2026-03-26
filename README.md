@@ -18,13 +18,26 @@ Dataset
 ## 👥 Team Members
 | Name                       | GitHub Handle   | Contribution                                                                         |
 | -------------------------- | --------------- | ------------------------------------------------------------------------------------ |
-| **Harshika Vijayabharath**        | @HarshikaV | Developed and evaluated predictive models for 48h and 72h wildfire threat horizons, including hyperparameter tuning, monotocity enforcement, and performance evaluation using ROC-AUC, log-loss, calibration curves, and Brier scores; currently contributing to survival model comparisons (Classification vs Cox vs RSF)|
-| **Yamini Karthik**             | @Yamini1025 | |
-| **Taanyaa Haridass Prasad**             | @taanyaaharidassprasad06 | |
+| **Harshika Vijayabharath**        | @HarshikaV | Developed and evaluated predictive models for 48h and 72h wildfire threat horizons, including hyperparameter tuning, monotonocity enforcement, and performance evaluation using ROC-AUC, log-loss, calibration curves, and Brier scores; currently contributing to survival model comparisons (Classification vs Cox vs RSF)|
+| **Yamini Karthik**             | @Yamini1025 | Conducted exploratory data analysis, trained probabilistic models for 12h and 24h prediction, and evaluated model performance using ROC-AUC, log-loss, and calibration techniques; contributing to Random Survival Forest modeling |
+| **Taanyaa Haridass Prasad**             | @taanyaaharidassprasad06 | Implemented data preprocessing and feature transformations (scaling, encoding, feature engineering), and developed evaluation metrics including weighted Brier score and hybrid scoring (C-index + Brier) |
 
-Key Tasks
-- Data cleaning, preprocessing, and feature engineering
-- Exploratory data analysis
-- Build survival models to predict wildfire threat probabilities
-- Predict probability of threatening evacuation zones at 12h, 24h, 48h, and 72h
-- Evaluate model performance using Hybrid Score (C-index + Weighted Brier Score)
+## Current Progress
+- Built baseline and advanced models for multi-horizon prediction (12h–72h)  
+- Implemented feature transformations (scaling, log/sqrt, interactions)  
+- Trained and evaluated models using ROC-AUC, log-loss, calibration curves, and Brier score  
+- Enforced monotonicity across time horizons to ensure consistent probability behavior  
+- Achieved strong initial results (Kaggle score: ~0.95+)  
+- Currently comparing classification vs survival models (Cox, Random Survival Forest)
+  
+## Key Work
+- Feature engineering from early wildfire incident data (first 5 hours)  
+- Training probabilistic models across multiple time horizons (12h, 24h, 48h, 72h)  
+- Hyperparameter tuning and model optimization (depth, splits, learning rate)  
+- Calibration techniques (isotonic vs sigmoid) for reliable probability estimates  
+- Evaluation using ROC-AUC, log-loss, calibration curves, and Brier score  
+- Exploration of survival analysis models (Cox, Random Survival Forest)
+
+## 📈 Results (So Far)
+- Kaggle Public Score: 0.95356 → 0.95702  
+- Improved model calibration and probability consistency across time horizons  
